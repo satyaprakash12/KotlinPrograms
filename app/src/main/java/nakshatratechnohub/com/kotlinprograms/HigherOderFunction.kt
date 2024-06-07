@@ -6,7 +6,7 @@ package nakshatratechnohub.com.kotlinprograms
 * Function
  */
 class HigherOderFunction {
-    fun higherOderFunction(a:Int,b:Int,fn:(Int,Int)->Int):Unit {
+    inline fun higherOderFunction(a:Int,b:Int,fn:(Int,Int)->Int):Unit {
         print(fn(a,b))
     }
 }

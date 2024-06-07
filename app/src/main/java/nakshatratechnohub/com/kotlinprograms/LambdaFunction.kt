@@ -7,12 +7,11 @@ package nakshatratechnohub.com.kotlinprograms
  */
 class LambdaFunction {
  val sum:(Int, Int,)->Int={a,b->a+b}
- val name:()->Unit={ print("Satya prakash")}
+val name:String="satya prakash"
 
 }
 
 fun main(){
     val ob=LambdaFunction()
     println(ob.sum(20,30))
-    ob.name()
 }
